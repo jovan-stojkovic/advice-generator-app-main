@@ -24,7 +24,7 @@ html {
 
 .container {
     width: 550px;
-    height: 350px;
+    min-height: 350px;
     margin: 200px auto;
     padding: 50px;
     background-color: var(--Dark-Grayish-Blue);
@@ -36,7 +36,7 @@ html {
     position: relative;
 }
 
-p.advice-id {
+p {
     color: var(--Neon-Green);
     font-size: 0.7rem;
     letter-spacing: 4px;
